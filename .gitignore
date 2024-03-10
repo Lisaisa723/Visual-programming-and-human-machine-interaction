@@ -4,3 +4,4 @@
 !*.cs
 !*.csproj
 !*.sln
+!*.axaml

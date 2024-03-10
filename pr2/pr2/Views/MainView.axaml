@@ -1,0 +1,145 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="clr-namespace:pr2.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="pr2.Views.MainView"
+             x:DataType="vm:MainViewModel">
+  <Design.DataContext>
+    <!-- This only sets the DataContext for the previewer in an IDE,
+         to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+    <vm:MainViewModel />
+  </Design.DataContext>
+	
+	<Grid ColumnDefinitions="*, 1, 2*" HorizontalAlignment="Stretch">
+		<StackPanel HorizontalAlignment="Stretch" Grid.Column="0">
+			
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1" 
+					 Foreground="Black" 
+					 BorderBrush="Black" 
+					 BorderThickness="2"
+					 Background="Khaki">
+					 Khaki
+			</Button>
+					
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="Red">
+					 Red
+			</Button>
+			
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="MediumVioletRed">
+				     MediumVioletRed
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="Bisque">
+				     Bisque
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="LemonChiffon">
+				     LemonChiffon
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="PowderBlue">
+				     PowderBlue
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="MintCream">
+				     MintCream
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="Maroon">
+				     Maroon
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="RosyBrown">
+				     RosyBrown
+			</Button>
+
+			<Button  Click="ClickHandler"
+					 HorizontalAlignment="Stretch"
+					 VerticalAlignment="Stretch"
+					 HorizontalContentAlignment="Center"
+					 Grid.ColumnSpan="1"
+					 Foreground="Black"
+					 BorderBrush="Black"
+					 BorderThickness="2"
+					 Background="LightPink">
+			       	 LightPink
+			</Button>
+		</StackPanel>
+			<GridSplitter Grid.Column="1" Background="Black"/>
+			<Rectangle x:Name="rectangle" Grid.Column="2" HorizontalAlignment="Stretch" Fill="Khaki"/>
+			
+	</Grid>
+	
+		
+
+</UserControl>

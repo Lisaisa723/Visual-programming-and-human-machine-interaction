@@ -165,7 +165,7 @@ public class MainViewModel : ViewModelBase
         _operation = operation;
         _state = State.Operation_changed;
         ShownValue = "0";
-
+        hasTochka = false;
     }
 
     private void ExecuteFunction(Function function)
